@@ -14,10 +14,31 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-  <title>Natours | Exciting tours for adventurous people</title>
+  <title>Natours | Tours emocionantes para gente aventurera</title>
 </head>
 
 <body>
+
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>Acerca de Natours</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Beneficios</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Tours populares</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Historias</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Reserva ahora</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <header class="header">
     <div class="header__logo-box">
       <img src="./img/logo-white.png" alt="Logo" class="header__logo" />
@@ -37,14 +58,14 @@
     <section class="section-about">
       <div class="u-center-text u-mb-big">
         <h2 class="heading-secondary">
-          Tours emocionantes para personas de aventura
+          Tours emocionantes para gente aventurera
         </h2>
       </div>
 
       <div class="row">
         <div class="col-1-of-2">
           <h3 class="heading-tertiary u-mb-small">
-            Te vas a enamorar de la naturaleza
+            Te enamorarás de la naturaleza
           </h3>
           <p class="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam,
@@ -107,7 +128,7 @@
           <div class="feature-box">
             <i class="feature-box__icon fas fa-map"></i>
             <h3 class="heading-tertiary u-mb-small">
-              Encuentra el camino
+              Encuéntrate
             </h3>
             <p class="feature-box__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -134,7 +155,7 @@
     <section class="section-tours">
       <div class="u-center-text u-mb-big">
         <h2 class="heading-secondary">
-          Tours más populares
+          Tours populares
         </h2>
       </div>
 
@@ -178,7 +199,7 @@
                 &nbsp;
               </div>
               <h4 class="card__heading">
-                <span class="card__heading-span card__heading-span--2">Excursionista de bosque</span>
+                <span class="card__heading-span card__heading-span--2">Excursionista del bosque</span>
               </h4>
               <div class="card__details">
                 <ul>
@@ -210,7 +231,7 @@
                 &nbsp;
               </div>
               <h4 class="card__heading">
-                <span class="card__heading-span card__heading-span--3">Aventura de nieve</span>
+                <span class="card__heading-span card__heading-span--3">Aventura nevada</span>
               </h4>
               <div class="card__details">
                 <ul>
@@ -251,7 +272,7 @@
       </div>
       <div class="u-center-text u-mb-big">
         <h2 class="heading-secondary">
-          Hacemos a las personas genuinamente feliz
+          Hacemos verdaderamente feliz a la gente
         </h2>
       </div>
 
@@ -259,7 +280,7 @@
         <div class="story">
           <figure class="story__shape">
             <img src="./img/nat-8.jpg" alt="Person on a tour" class="story__img" />
-            <figcaption class="story__caption">María Smith</figcaption>
+            <figcaption class="story__caption">María Paz</figcaption>
           </figure>
           <div class="story__text">
             <h3 class="heading-tertiary u-mb-small">
@@ -280,7 +301,7 @@
         <div class="story">
           <figure class="story__shape">
             <img src="./img/nat-9.jpg" alt="Person on a tour" class="story__img" />
-            <figcaption class="story__caption">Wilson Mayers</figcaption>
+            <figcaption class="story__caption">Jaime Wilson</figcaption>
           </figure>
           <div class="story__text">
             <h3 class="heading-tertiary u-mb-small">
@@ -360,7 +381,7 @@
           <ul class="footer__list">
             <li class="footer__item"><a href="#" class="footer__link">Empresa</a></li>
             <li class="footer__item"><a href="#" class="footer__link">Contacto</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">Carrera</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Carreras</a></li>
             <li class="footer__item"><a href="#" class="footer__link">Políticas</a></li>
             <li class="footer__item"><a href="#" class="footer__link">Términos</a></li>
           </ul>
@@ -369,7 +390,7 @@
       <div class="col-1-of-2">
         <p class="footer__copyright">
           Contruido por <a href="#" class="footer__link">Axel Monsalve</a> para portafolio profesional. Copyright &copy;
-          by Axel Monsalve. Créditos al profesor y autor del curso avanzado de CSS y SASS Jonas Schmedtmann.
+          by Axel Monsalve. Créditos al profesor y autor del curso avanzado de CSS Jonas Schmedtmann.
         </p>
       </div>
     </div>
